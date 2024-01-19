@@ -33,6 +33,13 @@
 # Acesse a pasta do projeto no terminal
 $ cd catalogo-veiculos
 
+# Crie o virtualenv
+$ virtualenv nome_da_virtualenv
+
+# Ative o virtualenv
+- source nome_da_virtualenv/bin/activate (Linux ou macOS)
+- nome_da_virtualenv/Scripts/Activate (Windows)
+
 # Instale as dependências
 $ pip install -r requirements.txt
 
